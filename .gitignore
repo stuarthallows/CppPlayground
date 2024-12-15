@@ -1,0 +1,87 @@
+# Compiled object files, binaries, and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.exe
+
+# CMake build directories
+/CMakeFiles/
+/CMakeCache.txt
+/build/
+/out/
+/dist/
+
+# Other build system directories
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+
+# Editor-specific files
+.vscode/
+/.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Coverage reports
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+
+# Test binaries and artifacts
+/test_output/
+
+# Dependency directories
+/vendor/
+/external/
+/third_party/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Package management files
+node_modules/
+/conanfile.lock
+*.lock
+
+# Auto-generated files
+*.moc
+*.qrc
+Makefile
+makefile
+*.pro.user
+
+# Catch-all for anything unexpected in the build process
+*.~*
+*~
+
+cmake-build-debug/
